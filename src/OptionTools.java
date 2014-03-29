@@ -115,7 +115,6 @@ public class OptionTools extends javax.swing.JFrame {
         lbl_sc.setFont(new java.awt.Font("Microsoft YaHei", 1, 14)); // NOI18N
         lbl_sc.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         lbl_sc.setText("0%");
-        lbl_sc.setToolTipText("可以填余额宝的0.05");
 
         txt_strike_price.setFont(new java.awt.Font("Microsoft YaHei", 0, 14)); // NOI18N
         txt_strike_price.setHorizontalAlignment(javax.swing.JTextField.TRAILING);
@@ -138,12 +137,10 @@ public class OptionTools extends javax.swing.JFrame {
 
         jLabel8.setFont(new java.awt.Font("Microsoft YaHei", 0, 14)); // NOI18N
         jLabel8.setText("行权价");
-        jLabel8.setToolTipText("");
 
         lbl_sp.setFont(new java.awt.Font("Microsoft YaHei", 1, 14)); // NOI18N
         lbl_sp.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
         lbl_sp.setText("0%");
-        lbl_sp.setToolTipText("可以填余额宝的0.05");
 
         lbl_img.setIcon(new javax.swing.ImageIcon(getClass().getResource("/tesla.jpg"))); // NOI18N
         lbl_img.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -164,17 +161,15 @@ public class OptionTools extends javax.swing.JFrame {
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                     .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(27, 27, 27)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(lbl_sp, javax.swing.GroupLayout.DEFAULT_SIZE, 51, Short.MAX_VALUE)
-                        .addComponent(lbl_sc, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(lbl_sp, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 65, Short.MAX_VALUE)
+                    .addComponent(lbl_sc, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(txt_stock_price, javax.swing.GroupLayout.DEFAULT_SIZE, 65, Short.MAX_VALUE)
                     .addComponent(txt_volatility)
                     .addComponent(txt_days_to_expire, javax.swing.GroupLayout.Alignment.LEADING)
